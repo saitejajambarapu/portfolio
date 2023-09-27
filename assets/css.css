@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#one{
+    text-align: center;
+}
+#img1{
+    width: 280px;
+    height: 280px;
+}
+#aboutme{
+ color: red;
+ text-align: center;
+}
+#skills{
+    text-align: center;
+    color: rgb(162, 23, 23);
+}
+#ae{
+    width: 50%;
+    height: 90%;
+}
+#img5{
+    width: 30%;
+    height:80%;
+}
+#img7{
+    width: 40%;
+    height:100%;
+}
+#img8{
+    width: 50%;
+    height:80%;
+}
+#img9{
+    width: 20%;
+    height:30%;
+}
+#water{
+    position: relative;
+}
+#water h2{
+    margin-left: 50%;
+    margin-top: 50px;
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+}
+#water h2:nth-child(1)
+{
+    color: black;
+    -webkit-text-stroke: 2px;
+
+}
+#water h2:nth-child(2)
+{
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        clip-path: polygon(0 6%, 1% 99%, 99% 99%, 100% 13%, 93% 25%, 81% 32%, 67% 40%, 28% 36%, 12% 22%);
+    }
+    50%
+    {
+        clip-path: polygon(0 50%, 1% 99%, 99% 99%, 100% 41%, 81% 68%, 65% 74%, 48% 74%, 29% 74%, 10% 64%);
+    }
+}
+
+
+
